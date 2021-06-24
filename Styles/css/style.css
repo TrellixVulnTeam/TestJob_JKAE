@@ -391,6 +391,9 @@ textarea {
   text-align: center;
   color: #000000;
 }
+.pageContainer header .header__nav a:hover {
+  color: #F79900;
+}
 .pageContainer header .header__nav a:first-child {
   margin-right: 111px;
 }
@@ -533,7 +536,11 @@ textarea {
   font-size: 14px;
   color: #FFFFFF;
   line-height: 19.6px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #FFFFFF;
+}
+.pageContainer main .main__info .main__info__mid .main__blocks .blocks__element .blocks__button:hover {
+  color: #ba760a;
+  border-bottom: 1px solid #ba760a;
 }
 .pageContainer main .main__info .main__info__mid .main__blocks .blocks__element:first-child {
   background: #333333;
@@ -656,6 +663,10 @@ textarea {
   color: #000000;
   margin-right: 77px;
 }
+.pageContainer .ourWorks .ourWorks__main .ourWorks__navigation button:hover {
+  color: #F79900;
+  border-bottom: 2px solid #F79900;
+}
 .pageContainer .ourWorks .ourWorks__main .ourWorks__main__content {
   width: 100%;
   display: flex;
@@ -699,8 +710,14 @@ textarea {
 .pageContainer .ourWorks .ourWorks__main .ourWorks__main__content .content__right .content__sliders .arrow__left {
   background: #FFFFFF url("../../images/leftArrow.svg") no-repeat 14px center;
 }
+.pageContainer .ourWorks .ourWorks__main .ourWorks__main__content .content__right .content__sliders .arrow__left:active {
+  transform: scale(0.9);
+}
 .pageContainer .ourWorks .ourWorks__main .ourWorks__main__content .content__right .content__sliders .arrow__right {
   background: #FFFFFF url("../../images/rightArrow.svg") no-repeat 22px center;
+}
+.pageContainer .ourWorks .ourWorks__main .ourWorks__main__content .content__right .content__sliders .arrow__right:active {
+  transform: scale(0.9);
 }
 .pageContainer .ourWorks .ourWorks__main .ourWorks__main__content .content__right .content__right__allWorks {
   width: 157px;
@@ -720,6 +737,9 @@ textarea {
   text-decoration-line: underline;
   color: #FFFFFF;
   padding-left: 24px;
+}
+.pageContainer .ourWorks .ourWorks__main .ourWorks__main__content .content__right .content__right__allWorks:hover {
+  cursor: pointer;
 }
 .pageContainer .ourWorks .ourWorks__main .ourWorks__main__content .content__left {
   width: 574px;
@@ -842,11 +862,12 @@ textarea {
 .pageContainer footer .footer__box ul {
   margin-bottom: 45px;
 }
-.pageContainer footer .footer__box ul > li {
+.pageContainer footer .footer__box ul li a {
   font-family: "Gotham-Regular";
   font-size: 14px;
   line-height: 35px;
   color: #FFFFFF;
+  text-decoration: none;
 }
 .pageContainer footer .footer__box span {
   display: inline-block;

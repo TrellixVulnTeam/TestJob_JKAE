@@ -247,13 +247,13 @@
             <div class="consultation__right">
               <form action="" class="consultation__form">
                 <span>Имя <span id="orange">*</span></span>
-                <input type="text" placeholder="Представьтесь,  пожалуйста" />
+                <input type="text" placeholder="Представьтесь,  пожалуйста" class="nameInput"/>
                 <span>Телефон <span id="orange">*</span></span>
-                <input type="tel" placeholder="+7 (000) 000-00-00" />
+                <input type="tel" placeholder="+7 (000) 000-00-00" class="mobileInput"/>
                 <span>Почта</span>
-                <input type="email" placeholder="mail@domain.ru" />
+                <input type="email" placeholder="mail@domain.ru" class="emailInput"/>
               </form>
-              <button class="consultation__sendButton">ОТПРАВИТЬ</button>
+              <button class="consultation__sendButton" disabled="true">ОТПРАВИТЬ</button>
               <p>
                 Нажимая на кнопку «Отправить», я даю согласие на обработку<br>
                 персональных данных и соглашаюсь c политикой конфиденциальности
@@ -269,27 +269,27 @@
         <div class="footer__box">
           <h6>РЕШЕНИЯ</h6>
           <ul>
-            <li>Автоматизация бизнеса</li>
-            <li>Сайты и интернет-магазины</li>
-            <li>Индивидуальная разработка</li>
-            <li>Готовые решения</li>
+            <li><a href="">Автоматизация бизнеса</a></li>
+            <li><a href="">Сайты и интернет-магазины</a></li>
+            <li><a href="">Индивидуальная разработка</a></li>
+            <li><a href="">Готовые решения</a></li>
           </ul>
           <img src="./images/logo.svg" alt="logo">
         </div>
         <div class="footer__box">
           <h6>МАГАЗИН</h6>
           <ul>
-            <li>Лицензии Битрикс24</li>
-            <li>Лицензии 1С Битрикс</li>
-            <li>Приложения Битрикс24</li>
+            <li><a href="">Лицензии Битрикс24</a></li>
+            <li><a href="">Лицензии 1С Битрикс</a></li>
+            <li><a href="">Приложения Битрикс24</a></li>
           </ul>
         </div>
         <div class="footer__box">
           <h6>ИНФОРМАЦИЯ</h6>
           <ul>
-            <li>О компании</li>
-            <li>Соглашение</li>
-            <li>Блог</li>
+            <li><a href="">О компании</a></li>
+            <li><a href="">Соглашение</a></li>
+            <li><a href="">Блог</a></li>
           </ul>
         </div>
         <div class="footer__box">
@@ -304,5 +304,6 @@
       </footer>
     </div>
     <!--pageContainer-->
+    <script src="./Scripts/main.js"></script>
   </body>
 </html>
