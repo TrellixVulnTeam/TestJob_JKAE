@@ -1,0 +1,17 @@
+@import './base/reset';
+@import './base/mixin';
+@import './media/extraLarge';
+@import './media/desktop';
+@import './media/laptop';
+@import './media/tablet';
+@import './media/mobile';
+
+@font-face {
+  src: url('../../fonts/GothamProRegular/GothamProRegular.ttf');
+  font-family: 'Gotham-Regular';
+}
+
+@font-face {
+  src: url('../../fonts/GothamProBold/GothamProBold.ttf');
+  font-family: 'Gotham-Bold';
+}
