@@ -29,8 +29,9 @@
       .header__logo {
         display: flex;
         align-items: center;
-        img{
-          width:120px;
+
+        img {
+          width: 120px;
         }
       }
 
@@ -67,7 +68,8 @@
       @include size(100%, 516px);
 
       padding: 80px 0px 0px 30px;
-      background: url('../../images/banner.png') center center;
+      background: url('../../../images/slider.png');
+
       position: relative;
 
       .banner__content {
@@ -191,8 +193,8 @@
             .blocks__element {
               @include size(49%, 50%);
 
-              margin : 0px 4px 10px 0px;
-              padding : 20px 0px 0px 30px;
+              margin: 0px 4px 10px 0px;
+              padding: 20px 0px 0px 30px;
 
               h5 {
                 font-family: 'Gotham-Bold';
@@ -358,7 +360,7 @@
         margin: 0 auto;
         display: flex;
         flex-direction: column;
-        align-items:center;
+        align-items: center;
 
         h2 {
           display: block;
@@ -374,7 +376,7 @@
           @include size(100%, 30px);
 
           display: flex;
-          justify-content:space-around;
+          justify-content: space-around;
           margin-top: 16px;
           padding: 0px 0px 0px 0px;
 
@@ -654,7 +656,7 @@
       }
 
       .footer__box:last-child {
-        width:30%;
+        width: 30%;
         margin-left: 0px;
       }
     }

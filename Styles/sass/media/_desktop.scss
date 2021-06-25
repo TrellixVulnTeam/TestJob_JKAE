@@ -54,12 +54,12 @@
         }
       }
     }
-   
+
     .page__banner {
       @include size(100%, 516px);
 
       padding: 99px 0px 0px 362px;
-      background: url('../../images/banner.png') center;
+      background: url('../../../images/slider.png');
       position: relative;
 
       .banner__content {

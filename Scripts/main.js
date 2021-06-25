@@ -28,7 +28,7 @@ function addEvents() {
     if (!mobileTest) {
       mobileInput.style.border = "3px solid red";
     } else mobileInput.style.border = "3px solid #BBBBBB";
-    
+
     if (nameTest && mobileTest) {
       sendButton.disabled = false;
       sendButton.style.opacity = 1;
@@ -48,3 +48,29 @@ function addEvents() {
 }
 
 addEvents();
+
+let slide1 = document.querySelector(".slide1");
+let slide2 = document.querySelector(".slide2");
+let slide3 = document.querySelector(".slide3");
+let banner = document.querySelector(".page__banner");
+
+slide1.addEventListener("click", function () {
+  banner.style.backgroundPositionX = "0%";
+  slide1.style.background = "#F79900";
+  slide2.style.background = "transparent";
+  slide3.style.background = "transparent";
+});
+
+slide2.addEventListener("click", function () {
+  banner.style.backgroundPositionX = "50%";
+  slide2.style.background = "#F79900";
+  slide1.style.background = "transparent";
+  slide3.style.background = "transparent";
+});
+
+slide3.addEventListener("click", function () {
+  banner.style.backgroundPositionX = "100%";
+  slide3.style.background = "#F79900";
+  slide2.style.background = "transparent";
+  slide1.style.background = "transparent";
+});
